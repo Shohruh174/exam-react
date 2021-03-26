@@ -1,0 +1,94 @@
+.Dashboard {
+    width: 100%;
+    padding: 25px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    .dashboard-top {
+        border-bottom: 1px solid #393C49;
+        padding-bottom: 25px;
+        margin-bottom: 25px;
+    }
+
+    .dashboard-inner {
+        width: 65%;
+    }
+}
+
+.dashboard-title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 140%;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+.dashboard-span {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: #E0E6E9;
+}
+
+.dashboard-statistic {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+
+    .statistic {
+        width: 200px;
+        height: 140px;
+        background: #1F1D2B;
+        border-radius: 8px;
+        padding: 15px;
+
+        .top {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+
+            .logo-img {
+                background: #252836;
+                border-radius: 8px;
+                padding: 10px;
+                margin-right: 12px;
+            }
+
+            span {
+                margin-right: 6px;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 140%;
+                color: #50D1AA;
+                &.cent {
+                    color: #FF7CA3;
+                }
+            }
+            
+            .arrow {
+                background: rgba(136, 224, 145, 0.24);
+                border-radius: 20px;
+                width: 15px;
+                height: 15px;
+                padding: 5px;
+                
+
+                &.cent-arrow {
+                    background: rgba(255, 100, 113, 0.24);
+                    border-radius: 20px;
+                }
+            }
+        }
+        .dashboard-total {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 130%;
+            color: #ABBBC2;
+        }
+    }
+}

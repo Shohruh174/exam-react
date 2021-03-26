@@ -1,0 +1,44 @@
+.sidebar-btn {
+    display: block;
+    padding: 18px 38px 28px 18px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    fill: #EA7C69;
+    transition: all ease 0.5s;
+    margin-bottom: 42px;
+    cursor: pointer;
+
+    &.main-icon {
+        background: rgba(235, 150, 106, 0.26);
+        border-radius: 12px;
+        padding-bottom: 18px;
+        padding-right: 18px;
+        margin-right: 18px;
+        &:hover {
+            background: rgba(235, 150, 106, 0.26);
+            border-radius: 12px;
+        }
+    }
+    
+    &:active {
+        fill: #fff;
+        background: #EA7C69;
+        box-shadow: 0px 8px 24px rgba(234, 124, 105, 0.32);
+        border-radius: 8px;
+    }
+    &:hover {
+        fill: #fff;
+        background-color: #252836FF;
+        border-radius: 12px 0px 0px 12px;
+
+    }
+}
+
+.sidebar-btn.active {
+    background: #252836;
+    border-radius: 12px 0px 0px 12px;
+}

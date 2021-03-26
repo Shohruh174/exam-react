@@ -1,0 +1,74 @@
+.SettingsAside {
+    height: 100%;
+    margin-right: 25px;
+    width: 28%;
+    .top-title {
+        margin-bottom: 25px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 140%;
+        color: #FFFFFF;
+    }
+
+    .settings-aside {
+        background: #1F1D2B;
+        border-radius: 8px;
+        min-height: 835px;
+        .aside-item {
+            display: flex;
+            align-items: center;
+            padding: 25px;
+            outline: none;
+            border: none;
+            width: 100%;
+            background-color: transparent;
+            text-align: left;
+            transition: all ease 0.8s;
+            position: relative;
+            cursor: pointer;
+            &::after {
+                position: absolute;
+                width: 5px;
+                height: 20px;
+                top: 0;
+                bottom: 0;
+                right: 0;
+                margin: auto;
+                background: #EA7C69;
+                border-radius: 30px;
+            }
+            &:hover {
+                background: rgba(234, 124, 105, 0.26);
+                h5 {
+                    color: #EA7C69;
+                }
+                .item-img {
+                    fill: red;
+                }
+            }
+            .item-img {
+                width: 15px;
+                height: 15px;
+                margin-right: 10px;
+                fill: #ABBBC2;
+            }
+            h5 {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 130%;
+                color: #FFFFFF;
+                transition: all ease 0.8s;
+                margin-bottom: 5px;
+            }
+            span {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 12px;
+                line-height: 140%;
+                color: #ABBBC2;
+            }
+        }
+    }
+}

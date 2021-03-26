@@ -1,0 +1,93 @@
+.customer {
+    background: #1F1D2B;
+    border-radius: 8px;
+    padding: 35px 0 25px 0;
+    height: 520px;
+    overflow-y: scroll;
+    &-top {
+        border-bottom: 1px solid #393C49;
+        padding-bottom: 15px;
+        padding: 0 25px;
+        .customer-title {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 25px;
+        }
+        h3 {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 140%;
+            color: #FFFFFF;
+        }
+        .filter {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 130%;
+            color: #FFFFFF;
+            background: #1F1D2B;
+            border: 1px solid #393C49;
+            box-sizing: border-box;
+            border-radius: 8px;
+            padding: 15px;
+            display: flex;
+            align-items: center;
+            outline: none;
+            background-color: transparent;
+            cursor: pointer;
+            & p {
+                margin-right: 15px;
+                margin-top: 5px;
+            }
+        }
+
+        .links {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-bottom: 15px;
+            
+            span {
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 140%;
+                color: #FFFFFF;
+                
+            }
+        }
+    }
+
+    .main {
+        padding: 0 25px;
+        .custemer-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 35px;
+            padding: 15px;
+            h3, p, .sum {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 140%;
+                color: #E0E6E9;
+            }
+            p {
+                max-width: 140px;
+            }
+            .status {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 130%;
+                color: #50D1AA;
+                background: rgba(107, 226, 190, 0.24);
+                border-radius: 30px;
+                padding: 5px 12px;
+            }
+        }
+    }
+}
